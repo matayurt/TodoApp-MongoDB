@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: solid 1px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #373A40;
+    color: #EEEEEE;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    background-color: #373A40;
+    border: solid 1px;
+    border-color: #EEEEEE;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #EEEEEE;
+} 
+
+.button:hover {
+    background-color: #EEEEEE;
+    border: solid 1px;
+    border-color: #373A40;
+    color: #373A40;
+}
+
+.text {
+    cursor: pointer;
+}
