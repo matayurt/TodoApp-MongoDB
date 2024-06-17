@@ -21,7 +21,7 @@
     background-color: #373A40;
     border: solid 1px;
     border-color: #EEEEEE;
-    padding: 5px;
+    padding: 8px;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -38,4 +38,39 @@
 
 .text {
     cursor: pointer;
+    width: 300px;
+    align-content: center;
+}
+
+.inpt {
+    border: 3px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    resize: none;
+    transition: all 1s;
+    width: 80%;
+}
+
+.inpt:focus {
+    border: 3px solid #EEEEEE;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    margin: 10px;
+    margin-left: -40px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.add {
+    padding: 13px;
 }

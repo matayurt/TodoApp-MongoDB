@@ -8,17 +8,19 @@ const TodoItem = ({ todo, toggleComplete, deleteTodo }) => {
   }
 
   return (
-    <li>
-      <span
-        style={{ textDecoration: todo.completed ? "line-through" : "none" }}
-        onClick={() => toggleComplete(todo._id)}
-        className="text"
-      >
-        {todo.text}
-      </span>
-      <button onClick={() => deleteTodo(todo._id)} className="button">
-        Delete
-      </button>
+    <li className="items">
+      <div className="todo-item">
+        <span
+          style={{ textDecoration: todo.completed ? "line-through" : "none" }}
+          onClick={() => toggleComplete(todo._id)}
+          className="text"
+        >
+          {todo.text}
+        </span>
+        <button onClick={() => deleteTodo(todo._id)} className="button">
+          Delete
+        </button>
+      </div>
     </li>
   );
 };
